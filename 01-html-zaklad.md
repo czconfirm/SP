@@ -25,15 +25,15 @@
 - [x] Každá stránka má vlastní `<title>`, který odpovídá jejímu obsahu
 
 ### Obsah
-- [ ] Na každé stránce je jeden nadpis `<h1>` a alespoň jeden podnadpis `<h2>`
-- [ ] Texty jsou rozdělené do odstavců `<p>`
-- [ ] Na webu je alespoň jeden seznam (`<ul>` nebo `<ol>`)
+- [x] Na každé stránce je jeden nadpis `<h1>` a alespoň jeden podnadpis `<h2>`
+- [x] Texty jsou rozdělené do odstavců `<p>`
+- [x] Na webu je alespoň jeden seznam (`<ul>` nebo `<ol>`)
 
 ### Tabulka
-- [ ] Na webu je alespoň **1 tabulka** s hlavičkou `<th>`
-- [ ] Tabulka má alespoň **3 sloupce a 4 řádky** s daty
-- [ ] Tabulka dává smysl, porovnává více položek se stejnými vlastnostmi
-- [ ] V tabulce je alespoň jednou použitý `rowspan` **nebo** `colspan`
+- [x] Na webu je alespoň **1 tabulka** s hlavičkou `<th>`
+- [x] Tabulka má alespoň **3 sloupce a 4 řádky** s daty
+- [x] Tabulka dává smysl, porovnává více položek se stejnými vlastnostmi
+- [x] V tabulce je alespoň jednou použitý `rowspan` **nebo** `colspan`
 
 > 💡 Tip: tabulka se hodí na menu s cenami, postavy a jejich vlastnosti, díly seriálu, otevírací dobu… Dlouhý text o jedné věci do tabulky nepatří, ten patří do odstavce.
 
@@ -43,23 +43,23 @@
 
 ### Odkazy
 - [x] Na každé stránce je **stejná navigace** s odkazy na všechny stránky webu
-- [ ] Alespoň **2 odkazy na jiné weby**, které se otevřou v nové záložce (`target="_blank"`)
-- [ ] Alespoň **1 odkaz na e-mail** (`mailto:`)
-- [ ] Všechny odkazy fungují, žádný nevede „do prázdna“
+- [x] Alespoň **2 odkazy na jiné weby**, které se otevřou v nové záložce (`target="_blank"`)
+- [x] Alespoň **1 odkaz na e-mail** (`mailto:`)
+- [x] Všechny odkazy fungují, žádný nevede „do prázdna“
 
 ### Obrázky
-- [ ] Na webu jsou alespoň **2 obrázky** (`<img>`)
-- [ ] Každý obrázek má atribut `alt` s krátkým popisem, co na něm je
-- [ ] Obrázky jsou uložené ve složce `img/` a v kódu na ně vede relativní cesta (`img/logo.png`)
-- [ ] Obrázky se zobrazují i na GitHub Pages, nejen na tvém počítači
+- [x] Na webu jsou alespoň **2 obrázky** (`<img>`)
+- [x] Každý obrázek má atribut `alt` s krátkým popisem, co na něm je
+- [x] Obrázky jsou uložené ve složce `img/` a v kódu na ně vede relativní cesta (`img/logo.png`)
+- [x] Obrázky se zobrazují i na GitHub Pages, nejen na tvém počítači
 
 > 💡 Tip: GitHub Pages rozlišuje velká a malá písmena. `Logo.PNG` a `logo.png` jsou pro něj dva různé soubory. Pojmenovávej obrázky malými písmeny bez diakritiky a mezer.
 
 ### Validace
 Prohlížeč ti zobrazí stránku, i když je v ní chyba. Jiné prohlížeče, vyhledávače nebo čtečky pro nevidomé si s ní ale nemusí poradit. Proto se HTML kontroluje **validátorem**.
 
-- [ ] Zkontroluj **všechny stránky** ve validátoru: [validator.w3.org](https://validator.w3.org/#validate_by_upload)
-- [ ] Oprav všechny chyby (**Error**), aby validátor u každé stránky hlásil, že je v pořádku
+- [x] Zkontroluj **všechny stránky** ve validátoru: [validator.w3.org](https://validator.w3.org/#validate_by_upload)
+- [x] Oprav všechny chyby (**Error**), aby validátor u každé stránky hlásil, že je v pořádku
 
 ---
 
@@ -73,10 +73,10 @@ Obě věci jsme v hodině neprobírali. Zjisti si sám, jak fungují. Odkazy na 
 
 Tagy `<video>` a `<audio>` jsme v hodině neprobírali. Vyber si **jeden z nich**, zjisti si sám, jak se používá, a vlož ho na web (třeba trailer, ukázku písničky, znělku seriálu…).
 
-- [ ] Na jedné stránce je vložené video (`<video>`) **nebo** audio (`<audio>`)
-- [ ] Přehrávač má ovládací prvky (play, pauza, hlasitost)
-- [ ] Soubor je uložený ve složce `media/` a má **maximálně 25 MB**
-- [ ] Nad tagem je v kódu **komentář**, ve kterém jednou větou vysvětlíš, co dělá atribut `controls` a co by se stalo bez něj
+- [x] Na jedné stránce je vložené video (`<video>`) **nebo** audio (`<audio>`)
+- [x] Přehrávač má ovládací prvky (play, pauza, hlasitost)
+- [x] Soubor je uložený ve složce `media/` a má **maximálně 25 MB**
+- [x] Nad tagem je v kódu **komentář**, ve kterém jednou větou vysvětlíš, co dělá atribut `controls` a co by se stalo bez něj
 
 Příklad:
 ```html
@@ -92,8 +92,8 @@ Příklad:
 
 Stránku jde rozdělit na části i tagy, které popisují, **co** daná část je.
 
-- [ ] Každá stránka je rozdělená na `<header>`, `<nav>`, `<main>` a `<footer>`
-- [ ] Na `index.html` je nad `<header>` **komentář**, ve kterém 1–2 větami vysvětlíš, k čemu tyto elementy jsou, když stránka vypadá stejně i bez nich
+- [x] Každá stránka je rozdělená na `<header>`, `<nav>`, `<main>` a `<footer>`
+- [x] Na `index.html` je nad `<header>` **komentář**, ve kterém 1–2 větami vysvětlíš, k čemu tyto elementy jsou, když stránka vypadá stejně i bez nich
 
 > 📖 Kde hledat: [Struktura dokumentu a webu (MDN)](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Structuring_documents) nebo [HTML Semantic Elements (W3Schools)](https://www.w3schools.com/html/html5_semantic_elements.asp)
 
@@ -107,8 +107,8 @@ Stránku jde rozdělit na části i tagy, které popisují, **co** daná část 
 > 📖 [Struktura tabulky (MDN)](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility)
 
 ### 🥈 Odkazy v rámci stránky
-- [ ] Na delší stránce vytvoř obsah s odkazy, které skočí na konkrétní místo stránky (pomocí atributu `id`)
-- [ ] Na konci stránky přidej odkaz **„Zpět nahoru“**
+- [x] Na delší stránce vytvoř obsah s odkazy, které skočí na konkrétní místo stránky (pomocí atributu `id`)
+- [x] Na konci stránky přidej odkaz **„Zpět nahoru“**
 
 > 📖 [Odkazy na části dokumentu (MDN)](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Creating_links#linking_to_specific_parts_of_a_document)
 
