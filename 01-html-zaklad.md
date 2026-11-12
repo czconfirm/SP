@@ -14,15 +14,15 @@
 > 🚀 Jak na to: [návod krok za krokem](00-navod-github.md)
 
 - [x] Mám účet na GitHubu
-- [ ] Mám svůj repozitář a umím do něj commitnout a pushnout
-- [ ] Mám zapnuté GitHub Pages a web se mi zobrazuje online
-- [ ] Mám alespoň **5 commitů** se srozumitelnou zprávou
+- [x] Mám svůj repozitář a umím do něj commitnout a pushnout
+- [x] Mám zapnuté GitHub Pages a web se mi zobrazuje online
+- [x] Mám alespoň **5 commitů** se srozumitelnou zprávou
 
 ### Struktura stránek
-- [ ] Web má alespoň **3 stránky**, hlavní se jmenuje `index.html`
-- [ ] Každá stránka má `<!DOCTYPE html>`, `<html lang="cs">`, `<head>` a `<body>`
-- [ ] Každá stránka má v `<head>` nastavené kódování `<meta charset="UTF-8">`
-- [ ] Každá stránka má vlastní `<title>`, který odpovídá jejímu obsahu
+- [x] Web má alespoň **3 stránky**, hlavní se jmenuje `index.html`
+- [x] Každá stránka má `<!DOCTYPE html>`, `<html lang="cs">`, `<head>` a `<body>`
+- [x] Každá stránka má v `<head>` nastavené kódování `<meta charset="UTF-8">`
+- [x] Každá stránka má vlastní `<title>`, který odpovídá jejímu obsahu
 
 ### Obsah
 - [ ] Na každé stránce je jeden nadpis `<h1>` a alespoň jeden podnadpis `<h2>`
@@ -42,7 +42,7 @@
 > - `colspan` (přes více **sloupců**): nadpis *Statistiky* nad sloupci síla / rychlost / životy, řádek *Řada 2* přes celou šířku tabulky, poznámka *Zavřeno* přes všechny časy v otevírací době
 
 ### Odkazy
-- [ ] Na každé stránce je **stejná navigace** s odkazy na všechny stránky webu
+- [x] Na každé stránce je **stejná navigace** s odkazy na všechny stránky webu
 - [ ] Alespoň **2 odkazy na jiné weby**, které se otevřou v nové záložce (`target="_blank"`)
 - [ ] Alespoň **1 odkaz na e-mail** (`mailto:`)
 - [ ] Všechny odkazy fungují, žádný nevede „do prázdna“
@@ -102,7 +102,7 @@ Stránku jde rozdělit na části i tagy, které popisují, **co** daná část 
 ## 🥉🥈🥇 Bonus (nepovinný)
 
 ### 🥉 Části tabulky
-- [ ] Rozděl tabulku na hlavičku `<thead>`, tělo `<tbody>` a patičku `<tfoot>` (do patičky se hodí třeba součet, průměr nebo poznámka)
+- [x] Rozděl tabulku na hlavičku `<thead>`, tělo `<tbody>` a patičku `<tfoot>` (do patičky se hodí třeba součet, průměr nebo poznámka)
 
 > 📖 [Struktura tabulky (MDN)](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility)
 
